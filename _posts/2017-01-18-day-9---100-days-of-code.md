@@ -26,3 +26,8 @@ Including…
 
 Python code for these exercises are on my new GitHub repository here:
 https://github.com/SFoskitt/python_extra
+
+
+If this #100DaysOfCode is news to you, here’s day #1 with more information:
+http://stephanietech.net/2017/01/06/100daysofcode/
+https://github.com/SFoskitt/100-days-of-code/blob/master/log.md

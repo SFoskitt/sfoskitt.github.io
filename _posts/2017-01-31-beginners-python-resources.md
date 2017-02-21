@@ -3,7 +3,7 @@ layout: post
 title: "Beginner's Python Resources"
 description: ""
 category: Resources
-tags: [Python, Resources]
+tags: [Python]
 date: 2017-01-31 07:50:00
 ---
 {% include JB/setup %}
