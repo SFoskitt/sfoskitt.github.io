@@ -8,9 +8,8 @@ date: 2017-03-01 12:22:00
 ---
 {% include JB/setup %}
 
-###Let’s do this again
-
-##MRW a month goes by without blogging
+## Let’s do this again
+### MRW a month goes by without blogging
 
 Unemployment.
 
