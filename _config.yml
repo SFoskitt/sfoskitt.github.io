@@ -16,7 +16,8 @@ author :
   github : SFoskitt
   twitter : StephanieTech
   linkedin: foskittstephanie
-  resume: /assets/Stephanie Foskitt - 2017-02-17.2.pdf
+  # resume: /assets/Stephanie Foskitt - 2017-02-17.2.pdf
+  resume: /resume.html
   # feedburner :
 
 # The production_url is only used when full-domain names are needed
