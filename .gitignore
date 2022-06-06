@@ -6,6 +6,7 @@ Thumbs.db
 
 !.gitkeep
 
+.jekyll-cache
 .rbenv-version
 .rvmrc
 
