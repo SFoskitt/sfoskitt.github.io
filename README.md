@@ -1,4 +1,4 @@
-# Jekyll-Bootstrap -- NOOP NOOP NOOP
+# Jekyll-Bootstrap -- YEEP YEEP YEEP
 
 The quickest way to start and publish your Jekyll powered blog. 100% compatible with GitHub pages
 
