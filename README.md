@@ -1,3 +1,20 @@
+# 2025-02-04 @ 16:35:43
+The first issue was with the ruby version - this project was trying to use the system installed ruby version. So I installed `rbenv` and ruby 3.1.2
+
+This project is set up to require "bundle" - it seems like it is a package manager like npm because it can also run things.
+
+`bundle exec jekyll serve` is the way to start the server
+
+`rake` comes with some dependency, maybe jekyll, not sure. Rake is required to generate new files.  Rakefile defines the tasks that Rake will do.
+
+
+
+# 2025-02-01 @ 22:14:35
+The maintainer of this Github repo gave up.  So I found these alternate instructions for getting started:
+https://gist.github.com/r-brown/a0b50d56cfb3596e0d17
+
+
+
 # Jekyll-Bootstrap
 
 The quickest way to start and publish your Jekyll powered blog. 100% compatible with GitHub pages
