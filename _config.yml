@@ -1,6 +1,6 @@
 # This is the default format.
 # For more see: http://jekyllrb.com/docs/permalinks/
-permalink: /:categories/:year/:month/:day/:title
+permalink: /blog/:categories/:year/:month/:day/:title
 
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
 # highlighter: pygments
@@ -9,15 +9,17 @@ exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
 # so be sure to set them if your theme uses them.
 #
 title : StephanieTech.Net
-tagline: If it does not compute, you must reboot.
+tagline: Stephanie is not trivial
+assets: /assets
 author :
   name: Stephanie
   email : Stephanie.Foskitt@Gmail.com
   github : SFoskitt
-  twitter : StephanieTech
+  # twitter : StephanieTech
+  bluesky: nontrivial.bsky.social
   linkedin: foskittstephanie
   # resume: /assets/Stephanie Foskitt - 2017-02-17.2.pdf
-  resume: /resume.html
+  # resume: /resume.html
   # feedburner :
 
 # The production_url is only used when full-domain names are needed
