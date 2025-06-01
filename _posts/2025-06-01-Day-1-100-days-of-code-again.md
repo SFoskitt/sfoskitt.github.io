@@ -16,6 +16,6 @@ This does not come naturally to me, even after 12 years actively working as a so
 
 However, remembering how a coding challenge kept me going, here I go again. And it is auspicious and convenient that the first day of my 100 day challenge starts on the first day of June - the start of the downhill side of the year.
 
-Today I'm going to start with something that's been on my "DO THIS" list for a while: solve the n-queens problem with Java. I've done this in the past with Javascript but now it's time to step up my language game.
+Today I'm going to start with something that's been on my "DO THIS" list for a while: solve the n-queens problem with Java. Last time I did this was with Javascript ten years ago and it makes me cringe a little just looking at it. Here's the plan: (1) refactor for ES6, (2) refactor for something NOT backbone, (3) branch and start editing to run as a Java terminal app.
 
 So "Ballyhoo" and "Let's Go" to any other 100 dayers who also chose today as "THE DAY".
