@@ -1,4 +1,7 @@
 
+# 2025-06-01 @ 11:02:32
+The "side links" are in JB/themes/the-program/default.html
+
 
 # 2025-02-04 @ 16:35:43
 The first issue was with the ruby version - this project was trying to use the system installed ruby version. So I installed `rbenv` and ruby 3.1.2
