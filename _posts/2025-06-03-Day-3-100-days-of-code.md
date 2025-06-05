@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "2025-06-03 - Day3 - 100 Days of Code"
+title: "2025-06-03 - Day 3 - 100 Days of Code"
 description: ""
 category: 
 tags: []
