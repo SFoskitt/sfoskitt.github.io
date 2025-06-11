@@ -13,4 +13,4 @@ Despite my best effort, I did not start a fun long-term project as planned today
 
 Here is the "easy" I chose today: Leetcode #15 - 3Sum. This is the problem I was supposed to do last night but ended up only refactoring my solution to Leectode #1 - 2Sum. One of the hints for 3Sum is something like "use 2Sum".
 
-I'm testing my git push ability from this other latop. Let's see if it works before I finish writing this post.
+
