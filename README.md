@@ -1,4 +1,30 @@
 
+# 2026-06-13 20:15:49
+
+Too many errors and conflicts with ruby 4.0.x and jekyll 4.4.1 so I uninstalled brew ruby and installed brew rbenv then:
+1. `rbenv install 3.4.9`
+2. `rbenv global 3.4.9`
+
+
+# 2026-06-13 19:35:40
+Theme "Minimal Mistakes" by Mike Rose
+- https://github.com/mmistakes/minimal-mistakes
+- https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
+https://mademistakes.com/about/
+
+
+# 2026-06-13 19:10:25
+> Executables installed via bundler should be run with bundle exec. For example
+>    bundle exec jekyll serve
+
+
+# 2026-06-13 19:03:51
+This is a fresh version of Jekyll, not Jekyll Bootstrap. I'll move all posts over to here from the old site (now living in the same github repo under "old-site" branch).
+
+
+======================
+
+
 # 2025-06-01 @ 11:02:32
 The "side links" are in JB/themes/the-program/default.html
 
