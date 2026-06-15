@@ -1,6 +1,9 @@
 ---
-layout: post
-title: "Day 9   100 Days of Code"
+layout: single
+toc: true
+show_date: true
+
+title: "Day 9 - 100 Days of Code (2017)"
 description: ""
 category: Coding
 tags: [100DaysOfCode, Python]

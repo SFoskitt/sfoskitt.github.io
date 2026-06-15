@@ -1,5 +1,8 @@
 ---
-layout: post
+layout: single
+toc: true
+show_date: true
+
 title: "Day  -2 (All over again)"
 description: ""
 category: 

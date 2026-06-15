@@ -1,6 +1,9 @@
 ---
-layout: post
-title: "2025-06-18 - Day 1 - 100 Days of Code"
+layout: single
+toc: true
+show_date: true
+
+title: "Day 1 - 100 Days of Code"
 description: ""
 category: 
 tags: []

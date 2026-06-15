@@ -1,5 +1,6 @@
 ---
-layout: post
+layout: single
+
 title: "It's a beautiful day in tech..."
 description: ""
 category: Blog

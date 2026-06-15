@@ -1,5 +1,8 @@
 ---
-layout: post
+layout: single
+toc: true
+show_date: true
+
 title: "Post Wakatime Data to Beeminder"
 description: ""
 category: Coding
@@ -33,15 +36,15 @@ WAKAKEY= your Wakatime key here as string
 BEEKEY= your Beeminder auth_token here as string 
 ```
 
-Your Wakatime private key is in your account here: https://wakatime.com/settings/account  
+Your Wakatime private key is in your account here: `https://wakatime.com/settings/account`  
 
-Your Beeminder auth\_token can be found here: https://www.beeminder.com/api/v1/auth_token.json
+Your Beeminder auth\_token can be found here: `https://www.beeminder.com/api/v1/auth_token.json`
 
 My only addition to the project was the npm package dotenv.  I couldn't get the project to run locally without this when the private keys are in the .env file.  There is supposed to be a way to get a Heroku project to run locally with a different set of command line operations, using the private keys loaded into Heroku, but I completely ignored this.  It seemed like a workaround to me.
 
 If you're interested in replicating this setup yourself, here are a couple more useful links:  
-https://devcenter.heroku.com/articles/getting-started-with-nodejs#introduction  
-https://devcenter.heroku.com/articles/config-vars
+`https://devcenter.heroku.com/articles/getting-started-with-nodejs#introduction`  
+`https://devcenter.heroku.com/articles/config-vars`
 
 Zapier offers a terrific option for devs to add their own code into a zap using either JavaScript or Python.  I tinkered with this for literally two weeks without success.  The code we can develop for this service runs on top of AWS and so there is a lot of stuff happening in the background that we don't have access to.  I kept running into the same 'NoneType' error over and over again using the Zapier recommended 'fetch' request.  I think if we had access to debugging tools, I would have finished this solution entirely on Zapier.  But instead I made a zap to trigger the GET request to my Heroku deployment, so in the end this service was very useful.
 

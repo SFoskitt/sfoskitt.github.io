@@ -1,5 +1,8 @@
 ---
-layout: post
+layout: single
+toc: true
+show_date: true
+
 title: "First Jekyll Post"
 description: ""
 category: 

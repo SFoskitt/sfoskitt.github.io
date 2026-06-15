@@ -1,5 +1,8 @@
 ---
-layout: post
+layout: single
+toc: true
+show_date: true
+
 title: "Unemployment   Part 2"
 description: ""
 category: Blog

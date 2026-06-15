@@ -18,14 +18,15 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: If it does not compute, you must reboot.
+title: 'StephanieTech.Net'
+# title: If it does not compute, you must reboot.
+subtitle: 'HELLO v.2026'
 email: Stephanie.Foskitt@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  If it does not compute, you must reboot.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: https://stephanietech.net # the base hostname & protocol for your site, e.g. http://example.com
+logo: "/favicon.ico"
 # twitter_username: jekyllrb
 # github_username:  jekyll
 
@@ -34,6 +35,42 @@ theme: minimal-mistakes-jekyll
 plugins:
   - jekyll-feed
   - jekyll-include-cache
+
+
+# 2026-06-14 - if using pagination on home page...
+# https://mmistakes.github.io/minimal-mistakes/docs/configuration/#paginate
+paginate: 5
+
+
+# 2026-06-14 - defaults per theme guide
+# https://mmistakes.github.io/minimal-mistakes/docs/configuration/#front-matter-defaults
+# https://jekyllrb.com/docs/configuration/front-matter-defaults/
+defaults:
+  -
+    scope:
+      path: ""
+      type: posts
+    values:
+      author: StephanieTech
+      author_profile: true
+      layout: single
+      related: true
+      show_date: true
+      sidebar:
+        title: "Other Pages"
+        nav: sidebar
+      toc: true
+
+
+# 2026-06-14 - include the _pages directory
+# https://mmistakes.github.io/minimal-mistakes/docs/pages/
+include: ["_pages"]
+
+
+# 2026-06-14 - skins
+# https://mmistakes.github.io/minimal-mistakes/docs/configuration
+minimal_mistakes_skin: "sunrise"
+
 
 # Exclude from processing.
 # The following items will not be processed, by default.

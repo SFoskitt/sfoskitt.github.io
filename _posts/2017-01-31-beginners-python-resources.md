@@ -1,8 +1,11 @@
 ---
-layout: post
+layout: single
+toc: true
+show_date: true
+
 title: "Beginner's Python Resources"
 description: ""
-category: Resources
+categories: resources
 tags: [Python]
 date: 2017-01-31 07:50:00
 ---

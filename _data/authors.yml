@@ -1,0 +1,14 @@
+StephanieTech:
+  # name: "Stephanie Foskitt"
+  bio: "If it does not compute, you must reboot."
+  # avatar: "/favicon.ico"
+  links:
+    - label: "Email me"
+      icon: "fas fa-fw fa-square-envelope"
+      url: "mailto:stephanie.foskitt@gmail.com"
+    - label: "Bluesky"
+      icon: "fab fa-fw fa-bluesky"
+      url: "https://www.bluesky.com/@nontrivial"
+    - label: "LinkedIn 'foskittstephanie'"
+      icon: "fab fa-fw fa-square-linkedin"
+      url: "https://www.linkedin.com/foskittstephanie"
