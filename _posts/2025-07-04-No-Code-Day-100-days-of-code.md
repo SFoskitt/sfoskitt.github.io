@@ -1,11 +1,18 @@
 ---
-layout: post
-title: "2025-07-04 - No Code Day - 100 Days of Code"
-description: ""
-category: 
-tags: []
+# layout: single
+# show_date: true
+# toc: true
+# sidebar:
+#   title: "Other Pages"
+#   nav: sidebar
+
+title: "No Code Day - 100 Days of Code (2025)"
+description: "The one where well-earned rest is had."
+#categories: blog
+#tag: asdf
 ---
-{% include JB/setup %}
+
+# The one where well-earned rest is had
 
 Hello, Friends -
 

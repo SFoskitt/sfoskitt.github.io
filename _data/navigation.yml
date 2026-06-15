@@ -1,0 +1,24 @@
+# the masthead links
+main:
+  - title: "About"
+    description: "What do you know about Stephanie?"
+    url: /about
+  - title: "Table of Contents"
+    description: "Check to see if you missed anything?"
+    url: /toc
+
+
+sidebar:
+  - title: "Resumé"
+    description: "French for 'short'"
+    url: /resume
+  - title: "About Stephanie"
+    description: "Stephanie's 'About Me' page"
+    url: /about
+  - title: "Posts by Tags"
+    description: "Not quite a heatmap"
+    url: /tags
+  - title: "Posts by Category"
+    url: /cats
+  - title: "Posts by Year"
+    url: /years

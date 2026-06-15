@@ -1,11 +1,13 @@
 ---
-layout: post
-title: "2025-06-17 - Day 0 - 100 Days of Code"
+layout: single
+toc: true
+show_date: true
+
+title: "Day 0 - 100 Days of Code"
 description: ""
 category: 
 tags: []
 ---
-{% include JB/setup %}
 
 Hello, Friends -
 

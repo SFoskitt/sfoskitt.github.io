@@ -1,11 +1,13 @@
 ---
-layout: post
-title: "2025-06-05 - Day 5 - 100 Days of Code"
+layout: single
+toc: true
+show_date: true
+
+title: "Day 5 - 100 Days of Code"
 description: "Wherein I re-learn how to math"
 category: 
 tags: []
 ---
-{% include JB/setup %}
 
 Hello, Friends -
 

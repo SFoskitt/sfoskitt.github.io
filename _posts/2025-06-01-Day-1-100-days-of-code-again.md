@@ -1,12 +1,14 @@
 ---
-layout: post
-title: "2025-06-01 - Day 1 - 100 Days of Code (Again)"
+layout: single
+toc: true
+show_date: true
+
+title: "Day 1 - 100 Days of Code (Again) (2025)"
 description: ""
 category: 
 tags: 100DaysOfCode
 theme_name: 
 ---
-{% include JB/setup %}
 
 Good morning, Friends -
 
