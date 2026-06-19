@@ -32,6 +32,7 @@ logo: "/favicon.ico"
 
 author:
   name   : "Stephanie Foskitt"
+  bio: "If it does not compute, you must reboot."
   links:
     - label: "Bluesky"
       icon: "fab fa-fw fa-bluesky"
@@ -39,6 +40,9 @@ author:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/SFoskitt"
+    - label: "LinkedIn 'foskittstephanie'"
+      icon: "fab fa-fw fa-square-linkedin"
+      url: "https://www.linkedin.com/in/foskittstephanie"
 
 
 markdown: kramdown
