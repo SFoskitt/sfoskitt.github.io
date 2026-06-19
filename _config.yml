@@ -30,46 +30,77 @@ logo: "/favicon.ico"
 # twitter_username: jekyllrb
 # github_username:  jekyll
 
-# 2026-06-13 - default Jekull build settings
-theme: minimal-mistakes-jekyll
+author:
+  name   : "Stephanie Foskitt"
+  links:
+    - label: "Bluesky"
+      icon: "fab fa-fw fa-bluesky"
+      url: "https://bsky.app/profile/nontrivial.bsky.social"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/SFoskitt"
+
+
+markdown: kramdown
+remote_theme: mmistakes/minimal-mistakes
+
 plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
   - jekyll-feed
+  - jemoji
   - jekyll-include-cache
 
 
 # 2026-06-14 - if using pagination on home page...
 # https://mmistakes.github.io/minimal-mistakes/docs/configuration/#paginate
-paginate: 5
+permalink: /:categories/:title/
+paginate: 7 # amount of posts to show
+paginate_path: /page:num/
+timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # 2026-06-14 - defaults per theme guide
 # https://mmistakes.github.io/minimal-mistakes/docs/configuration/#front-matter-defaults
 # https://jekyllrb.com/docs/configuration/front-matter-defaults/
 defaults:
-  -
-    scope:
+  # _posts
+  - scope:
       path: ""
       type: posts
     values:
-      author: StephanieTech
-      author_profile: true
       layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
       related: true
-      show_date: true
-      sidebar:
-        title: "Other Pages"
-        nav: sidebar
-      toc: true
+  # _pages
+  - scope:
+      path: "_pages"
+      type: pages
+    values:
+      layout: single
+      author_profile: true
 
 
 # 2026-06-14 - include the _pages directory
 # https://mmistakes.github.io/minimal-mistakes/docs/pages/
-include: ["_pages"]
+include:
+  - _pages
 
 
 # 2026-06-14 - skins
 # https://mmistakes.github.io/minimal-mistakes/docs/configuration
 minimal_mistakes_skin: "sunrise"
+
+category_archive:
+  type: liquid
+  path: /categories/
+tag_archive:
+  type: liquid
+  path: /tags/
 
 
 # Exclude from processing.
