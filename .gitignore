@@ -8,7 +8,9 @@ Thumbs.db
 !.gitkeep
 
 .jekyll-cache
+.jekyll-metadata
 .rbenv-version
 .rvmrc
+.sass-cache
 
 Gemfile.lock

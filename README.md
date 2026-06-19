@@ -1,126 +1,27 @@
+# Minimal Mistakes remote theme starter
 
-# 2026-06-13 20:15:49
+Click [**Use this template**](https://github.com/mmistakes/mm-github-pages-starter/generate) button above for the quickest method of getting started with the [Minimal Mistakes Jekyll theme](https://github.com/mmistakes/minimal-mistakes).
 
-Too many errors and conflicts with ruby 4.0.x and jekyll 4.4.1 so I uninstalled brew ruby and installed brew rbenv then:
-1. `rbenv install 3.4.9`
-2. `rbenv global 3.4.9`
+Contains basic configuration to get you a site with:
 
+- Sample posts.
+- Sample top navigation.
+- Sample author sidebar with social links.
+- Sample footer links.
+- Paginated home page.
+- Archive pages for posts grouped by year, category, and tag.
+- Sample about page.
+- Sample 404 page.
+- Site wide search.
 
-# 2026-06-13 19:35:40
-Theme "Minimal Mistakes" by Mike Rose
-- https://github.com/mmistakes/minimal-mistakes
-- https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
-https://mademistakes.com/about/
+Replace sample content with your own and [configure as necessary](https://mmistakes.github.io/minimal-mistakes/docs/configuration/).
 
+---
 
-# 2026-06-13 19:10:25
-> Executables installed via bundler should be run with bundle exec. For example
->    bundle exec jekyll serve
+## Troubleshooting
 
+If you have a question about using Jekyll, start a discussion on the [Jekyll Forum](https://talk.jekyllrb.com/) or [StackOverflow](https://stackoverflow.com/questions/tagged/jekyll). Other resources:
 
-# 2026-06-13 19:03:51
-This is a fresh version of Jekyll, not Jekyll Bootstrap. I'll move all posts over to here from the old site (now living in the same github repo under "old-site" branch).
-
-
-======================
-
-
-# 2025-06-01 @ 11:02:32
-The "side links" are in JB/themes/the-program/default.html
-
-
-# 2025-02-04 @ 16:35:43
-The first issue was with the ruby version - this project was trying to use the system installed ruby version. So I installed `rbenv` and ruby 3.1.2
-
-This project is set up to require "bundle" - it seems like it is a package manager like npm because it can also run things.
-
-`bundle exec jekyll serve` is the way to start the server
-
-`rake` comes with some dependency, maybe jekyll, not sure. Rake is required to generate new files.  Rakefile defines the tasks that Rake will do.
-
-
-
-# 2025-02-01 @ 22:14:35
-The maintainer of this Github repo gave up.  So I found these alternate instructions for getting started:
-https://gist.github.com/r-brown/a0b50d56cfb3596e0d17
-
-
-
-# Jekyll-Bootstrap
-
-The quickest way to start and publish your Jekyll powered blog. 100% compatible with GitHub pages
-
-## Usage
-
-For all usage and documentation please see: <http://jekyllbootstrap.com>
-
-## Version
-
-0.3.0 - stable and versioned using [semantic versioning](http://semver.org/).
-
-**NOTE:** 0.3.0 introduces a new theme which is not backwards compatible in the sense it won't _look_ like the old version.
-However, the actual API has not changed at all.
-You might want to run 0.3.0 in a branch to make sure you are ok with the theme design changes.
-
-## Milestones
-
-[0.4.0](https://github.com/plusjade/jekyll-bootstrap/milestones/v%200.4.0) - next release [ETA 03/29/2015]
-
-### GOALS
-
-* No open PRs against master branch.
-* Squash some bugs.
-* Add some new features (low-hanging fruit).
-* Establish social media presence.
-
-
-### Bugs
-
-|Bug |Description
-|------|---------------
-|[#86](https://github.com/plusjade/jekyll-bootstrap/issues/86)  |&#x2611; Facebook Comments
-|[#113](https://github.com/plusjade/jekyll-bootstrap/issues/113)|&#x2611; ASSET_PATH w/ page & post
-|[#144](https://github.com/plusjade/jekyll-bootstrap/issues/144)|&#x2610; BASE_PATH w/ FQDN
-|[#227](https://github.com/plusjade/jekyll-bootstrap/issues/227)|&#x2611; Redundant JB/setup
-
-### Features
-
-|Bug |Description
-|------|---------------
-|[#98](https://github.com/plusjade/jekyll-bootstrap/issues/98)  |&#x2611; GIST Integration
-|[#244](https://github.com/plusjade/jekyll-bootstrap/issues/244)|&#x2611; JB/file_exists Helper
-|[#42](https://github.com/plusjade/jekyll-bootstrap/issues/42)  |&#x2611; Sort collections of Pages / Posts
-|[#84](https://github.com/plusjade/jekyll-bootstrap/issues/84)  |&#x2610; Detecting production mode
-
-### TODOS
-
-Review existing pull requests against plusjake/jekyll-bootstrap:master. Merge or close each.
-
-* Create twitter account. Add link / icon on jekyllbootstrap.com.
-* Create blog posts under plusjade/gh-pages, expose on jekyllbootstrap.com, feed to twitter account.
-* Announce state of project, announce roadmap(s), announce new versions as they’re released.
-
-## Contributing
-
-
-To contribute to the framework please make sure to checkout your branch based on `jb-development`!!
-This is very important as it allows me to accept your pull request without having to publish a public version release.
-
-Small, atomic Features, bugs, etc.
-Use the `jb-development` branch but note it will likely change fast as pull requests are accepted.
-Please rebase as often as possible when working.
-Work on small, atomic features/bugs to avoid upstream commits affecting/breaking your development work.
-
-For Big Features or major API extensions/edits:
-This is the one case where I'll accept pull-requests based off the master branch.
-This allows you to work in isolation but it means I'll have to manually merge your work into the next public release.
-Translation : it might take a bit longer so please be patient! (but sincerely thank you).
-
-**Jekyll-Bootstrap Documentation Website.**
-
-The documentation website at <http://jekyllbootstrap.com> is maintained at https://github.com/plusjade/jekyllbootstrap.com
-
-
-## License
-
-[MIT](http://opensource.org/licenses/MIT)
+- [Ruby 101](https://jekyllrb.com/docs/ruby-101/)
+- [Setting up a Jekyll site with GitHub Pages](https://jekyllrb.com/docs/github-pages/)
+- [Configuring GitHub Metadata](https://github.com/jekyll/github-metadata/blob/master/docs/configuration.md#configuration) to work properly when developing locally and avoid `No GitHub API authentication could be found. Some fields may be missing or have incorrect data.` warnings.
